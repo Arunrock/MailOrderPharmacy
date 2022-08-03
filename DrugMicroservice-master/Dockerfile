@@ -4,7 +4,7 @@ WORKDIR /app
 RUN mvn install
 
 FROM openjdk:11-jre
-RUN mkdir /jdbc
-COPY --from=builder /app/target/*.jar  /jdbc
-WORKDIR /jdbc
-CMD ["java","-jar","spring-boot-jdbc-0.0.1-SNAPSHOT.jar"]
+RUN mkdir /drugmicro
+COPY --from=builder /app/target/*.jar  /drugmicro
+WORKDIR /drugmicro
+CMD ["java","-jar","drugservice-0.0.1-SNAPSHOT.jar"]
