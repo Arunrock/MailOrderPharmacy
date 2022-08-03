@@ -4,7 +4,7 @@ WORKDIR /app
 RUN mvn install
 
 FROM openjdk:11-jre
-RUN mkdir /jdbc
-COPY --from=builder /app/target/*.jar  /jdbc
-WORKDIR /jdbc
-CMD ["java","-jar","spring-boot-jdbc-0.0.1-SNAPSHOT.jar"]
+RUN mkdir /Authorization
+COPY --from=builder /app/target/*.jar  /Authorization
+WORKDIR /Authorization
+CMD ["java","-jar","Authorization-0.0.1-SNAPSHOT.jar"]Authorization
