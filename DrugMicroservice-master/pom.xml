@@ -12,6 +12,7 @@
 	<groupId>com.mailorderpharmacy</groupId>
 	<artifactId>drugservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>drug-service</name>
 	<description>Drug Service for Mail Order Pharmacy</description>
 
