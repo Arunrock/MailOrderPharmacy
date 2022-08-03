@@ -12,6 +12,7 @@
 	<groupId>com.mailorderpharmacy.subscription</groupId>
 	<artifactId>SubscriptionService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>SubscriptionService</name>
 	<description>Subscription service for mail order pharma</description>
 
