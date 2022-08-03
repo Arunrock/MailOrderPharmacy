@@ -12,8 +12,9 @@
 	<groupId>com.example</groupId>
 	<artifactId>RefillMicroService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>RefillMicroService</name>
-	<description>Microservice for Refill module</description>
+ <description>Microservice for Refill module</description>
 	<properties>
 		<java.version>1.8</java.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
